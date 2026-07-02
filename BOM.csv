@@ -1,14 +1,12 @@
-Item Name,Supplier,Manufacturer/Brand,Function,Estimated Price (inc. VAT)
-PKCell 1200mAh 3.7V LiPo Battery,The Pi Hut,PKCell,Energy Storage Pool,£8.00
-Waveshare Solar Power Manager Module (6V-24V),The Pi Hut,Waveshare,MPPT Charger & 5V Regulator,£12.50
-Solar Panel (9v 600mA),The Pi Hut,The Pi Hut,Solar Harvester,£5.30
-Adafruit Sensirion SHT41 Sensor,The Pi Hut,Adafruit,Precision Air Temp/Humidity,£5.80
-Seeed XIAO RP2040 (Headers included),The Pi Hut,Seeed Studio,Microcontroller Main Brain,£3.90
-STEMMA QT to Male Jumper Cable (150mm),The Pi Hut,Adafruit,SHT41 Breadboard Interface,£1.00
-Capacitive Soil Moisture Sensor v1.2,AliExpress,Generic,Corrosion-Resistant Soil Probe,£1.50
-400 Tie-Point Solderless Breadboard,AliExpress,Generic,Desktop Prototyping Grid,£0.77
-40PCS Male-to-Male Jumper Wires,AliExpress,Generic,Circuit Connections,£0.77
-80W LCD Soldering Iron Tool Kit,AliExpress,Generic,Assembly Tool Set,£14.56
-ABS Waterproof Junction Box (120x80mm),AliExpress,Generic,Weatherproof Outer Enclosure,£0.77
-10-Pack Nylon PG7 Cable Glands,AliExpress,Generic,Watertight Wire Seals,£0.77
-Double-Sided Fiberglass Perfboard (5x7cm),AliExpress,Generic,Permanent Circuit Assembly Sheet,£1.00
+Designator,Value,Package,Quantity,Description
+U1,AP2112K-3.3,SOT-23-5,1,3.3V LDO Voltage Regulator
+U2,ESP32-C3-WROOM-02U,Module_U.FL,1,Wi-Fi/Bluetooth MCU Module
+P1,HRO TYPE-C-31-M-12,SMD_16P_2.0,1,16-Pin USB-C Receptacle
+J1,2-Pin Terminal Block,Pitch_5.00mm,1,Screw Terminal for 5V Input
+J2,1x04 Female Socket,Pitch_2.54mm,1,Header for SHT41 Sensor Cable
+J3,1x03 Female Socket,Pitch_2.54mm,1,Header for Soil Sensor Cable
+R1 R2 R3,10k,0805_HandSolder,3,Pull-up Resistors (1% Tolerance)
+R4 R5,5.1k,0805_HandSolder,2,USB CC Configuration Resistors
+C1,100uF,EIA-3528_CaseB,1,Tantalum Bulk Input Capacitor
+C2 C3 C4,100nF,0805_HandSolder,3,Ceramic High-Frequency Decoupling Caps
+ANT1,2.4GHz Whip,U.FL Pigtail,1,External Rubber Antenna
