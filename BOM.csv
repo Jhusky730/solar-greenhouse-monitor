@@ -19,7 +19,7 @@ Item,Quantity,Source,Part Number / Link,Manufacturer,MPN,Description,Package / F
 18,1,Pi Hut,https://thepihut.com,Waveshare,WS-16120,Power Manager Module (6V-24V),Pre-assembled Board,Steps down Panel to safe 5V/3A Output
 19,1,Pi Hut,https://thepihut.com,Pi Hut,TTPH-SOLAR-9V,Solar Panel (9v 600mA),Chassis Panel,Powers Waveshare Manager Input
 20,1,Pi Hut,https://thepihut.com,Pi Hut,TTPH-SOIL-MOIST,Capacitive Soil Moisture Sensor,Probe Module,Plugs into J3 via included Female cable
-21,1,Pi Hut,https://thepihut.com,Sensirion,SHT41 Temp & Humidity Sensor,Breakout Board,Plugs into J2 QT port via item 16
-22,2,AliExpress,Moonlight electric,PG7-PG19-MIX,10Pcs Nylon Cable Glands IP68 (PG7/PG9 Assortment),Hardware Pack,Enclosure Waterproofing Joints
-23,1,AliExpress,FEITA Tools Store,FEITA-80W-KIT,80W LCD Digital Soldering Iron Kit (UK Plug),Tooling Set,Manual PCB Hand Assembly Shop
-24,1,AliExpress,Wenzhou Xiangheng,IP67-ABS-BLK,ABS Waterproof Box Housing Safe Case (Black),Junction Box,Outdoor Enclosure Housing Base
+21,1,Pi Hut,https://thepihut.com,Sensirion,SHT41,"SHT41 Temp & Humidity Sensor, Breakout Board",Module,Plugs into J2 QT port via item 16
+22,2,AliExpress,Moonlight electric,PG7-PG19-MIX,"10Pcs Nylon Cable Glands IP68 (PG7/PG9 Assortment)",Hardware Pack,Enclosure Waterproofing Joints
+23,1,AliExpress,FEITA Tools Store,FEITA-80W-KIT,"80W LCD Digital Soldering Iron Kit (UK Plug)",Tooling Set,Manual PCB Hand Assembly Shop
+24,1,AliExpress,Wenzhou Xiangheng,IP67-ABS-BLK,"ABS Waterproof Box Housing Safe Case (Black)",Junction Box,Outdoor Enclosure Housing Base
