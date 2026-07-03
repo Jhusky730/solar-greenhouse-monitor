@@ -1,14 +1,20 @@
-Item,Quantity,LCSC Part Number,Manufacturer,MPN,Description,Package/Footprint,Designator
-1,1,C2926676,ESPRESSIF,ESP32-C3-WROOM-02U-N4,2.4GHz ESP32-C3 Chip -98dBm SMD-19P RF Module,SMD-19P,U2
-2,5,C165948,Korean Hroparts Elec,TYPE-C-31-M-12,USB-C Receptacle Connector 16 Position Surface Mount,SMD (16-Pin),J4
-3,1,C916292,MOLEX,1461530050,Flexible RF Antenna with U.FL/MHF Connector,Chassis Mount,ANT1
-4,1,C148107,Kyocera AVX,TPSB107M010R0400,100uF ±20% 10V Tantalum Capacitor 400mΩ@100kHz,CASE-B-3528-21,C1
-5,100,C108451,Walsin,WR08X1002FTL,125mW 10kΩ Thick Film Resistor ±1% (ESP32 Boot/Reset Pull-up),0805,R1 R3
-6,100,C84375,YAGEO,RC0805FR-075K1L,5.1kΩ 125mW Thick Film Resistor ±1% (USB-C CC Pull-down),0805,R2 R4
-7,10,C83055,Walsin,0805B104K500CT,100nF ±10% 50V Ceramic Capacitor X7R,0805,C2 C4
-8,20,C99915,Walsin,0805B105K500CT,1uF ±10% 50V Ceramic Capacitor X7R,0805,C3
-9,10,C125883,PANJIT,SS14L_R1_00001,Schottky Diode 40V 1A Surface Mount (Solar Protection),SMA (DO-214AC),D1
-10,5,C474952,Cixi Kefa Elec,KF128-5.08-2P-AA,2 Position Wire to Board Terminal Block 5.08mm (Solar In),Through Hole 5.08mm,J1
-11,5,C22365427,MSKSEMI,AP2112K-3.3TRG1(MS),Linear Voltage Regulator IC Positive Fixed 1 Output 600mA,SOT-23-5,U1
-12,10,C5445396,CJT(Changjiang Connectors),A2541WV-3P,Pin Header 3 Position 2.54mm Pitch Single Row (Soil Sensor),Through Hole 2.54mm,J3
-13,5,C160404,JST,SM04B-SRSS-TB(LF)(SN),Connector Header 4 position 1mm Pitch 1A Right Angle (SHT41 Qwiic),SMD Right Angle 1mm,J2
+Item,Quantity,Source,Part Number / Link,Manufacturer,MPN,Description,Package / Form Factor,Designator / Notes
+1,1,LCSC,C2926676,ESPRESSIF,ESP32-C3-WROOM-02U-N4,2.4GHz ESP32-C3 Module (U.FL External Antenna),SMD-19P,U2
+2,5,LCSC,C165948,Korean Hroparts Elec,TYPE-C-31-M-12,USB-C Receptacle 16 Position,SMD (16-Pin),J4
+3,1,LCSC,C916292,MOLEX,1461530050,Flexible RF Antenna with U.FL/MHF Connector,Chassis Mount,ANT1
+4,1,LCSC,C148107,Kyocera AVX,TPSB107M010R0400,100uF ±20% 10V Tantalum Capacitor 400mΩ,CASE-B-3528-21,C1 (Stripe AWAY from GND)
+5,100,LCSC,C108451,Walsin,WR08X1002FTL,125mW 10kΩ Thick Film Resistor ±1%,0805,R1 R3 (Boot/Reset Pull-up)
+6,100,LCSC,C84375,YAGEO,RC0805FR-075K1L,5.1kΩ 125mW Thick Film Resistor ±1%,0805,R2 R4 (USB-C CC Pull-down)
+7,10,LCSC,C83055,Walsin,0805B104K500CT,100nF ±10% 50V Ceramic Capacitor X7R,0805,C2 C4
+8,20,LCSC,C99915,Walsin,0805B105K500CT,1uF ±10% 50V Ceramic Capacitor X7R,0805,C3
+9,10,LCSC,C125883,PANJIT,SS14L_R1_00001,Schottky Diode 40V 1A Surface Mount,SMA (DO-214AC),D1 (Stripe TOWARD Caps)
+10,5,LCSC,C474952,Cixi Kefa Elec,KF128-5.08-2P-AA,2 Pos Wire to Board Terminal Block 5.08mm,Through Hole 5.08mm,J1 (Power Input)
+11,5,LCSC,C22365427,MSKSEMI,AP2112K-3.3TRG1(MS),Linear Voltage Regulator IC Fixed 3.3V 600mA,SOT-23-5,U1
+12,10,LCSC,C5445396,CJT,A2541WV-3P,Pin Header 3 Position 2.54mm Single Row,Through Hole 2.54mm,J3 (Moisture Expansion)
+13,5,LCSC,C160404,JST,SM04B-SRSS-TB(LF)(SN),Connector Header 4 position 1mm Pitch 1A R/A,SMD Right Angle 1mm,J2 (Qwiic / STEMMA QT)
+14,1,Pi Hut,STEMMA QT Cable,Adafruit,STEMMA QT / Qwiic JST-SH 4-pin to Male Jumpers (150mm),Wire Harness,Connects J2 to SHT41 Breakout
+15,1,Pi Hut,1200mAh Battery,PKCell,1200mAh 3.7V LiPo Battery (JST-PH),Battery Pack,Plugs into Waveshare Manager
+16,1,Pi Hut,Solar Module,Waveshare,Solar Power Manager Module (6V-24V),Pre-assembled Board,Steps down Panel to safe 5V/3A Output
+17,1,Pi Hut,Solar Panel,The Pi Hut,Solar Panel (9v 600mA),Chassis Panel,Powers Waveshare Manager Input
+18,1,Pi Hut,Moisture Sensor,The Pi Hut,Capacitive Soil Moisture Sensor,Probe Module,Plugs into J3 via included Female cable
+19,1,Pi Hut,SHT41 Breakout,Adafruit,Adafruit Sensirion SHT41 Temp & Humidity Sensor,Breakout Board,Plugs into J2 QT port via item 14
