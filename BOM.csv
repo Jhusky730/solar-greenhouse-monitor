@@ -20,6 +20,6 @@ Item,Quantity,Source,Part Number / Link,Manufacturer,MPN,Description,Package / F
 19,1,Pi Hut,https://thepihut.com,Pi Hut,TTPH-SOLAR-9V,Solar Panel (9v 600mA),Chassis Panel,Powers Waveshare Manager Input
 20,1,Pi Hut,https://thepihut.com,Pi Hut,TTPH-SOIL-MOIST,Capacitive Soil Moisture Sensor,Probe Module,Plugs into J3 via included Female cable
 21,1,Pi Hut,https://thepihut.com,Sensirion,SHT41,"SHT41 Temp & Humidity Sensor, Breakout Board",Module,Plugs into J2 QT port via item 16
-22,2,AliExpress,Moonlight electric,PG7-PG19-MIX,"10Pcs Nylon Cable Glands IP68 (PG7/PG9 Assortment)",Hardware Pack,Enclosure Access Ports
-23,1,AliExpress,FEITA Tools Store,FEITA-80W-KIT,"80W LCD Digital Soldering Iron Kit (UK Plug)",Tooling Set,Assembly Tools
-24,1,AliExpress,Wenzhou Xiangheng,IP67-ABS-BLK,"ABS Waterproof Box Housing Safe Case (Black)",Junction Box,Main Enclosure
+22,2,AliExpress,Moonlight electric,PG7-PG19-MIX,Nylon Cable Glands,"10Pcs Nylon Cable Glands IP68 (PG7/PG9 Assortment)",Hardware Pack,Enclosure Access Ports
+23,1,AliExpress,FEITA Tools Store,FEITA-80W-KIT,Soldering Iron Kit,"80W LCD Digital Soldering Iron Kit (UK Plug)",Tooling Set,Assembly Tools
+24,1,AliExpress,Wenzhou Xiangheng,IP67-ABS-BLK,Waterproof Box,"ABS Waterproof Box Housing Safe Case (Black)",Junction Box,Main Enclosure
