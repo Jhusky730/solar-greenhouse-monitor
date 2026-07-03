@@ -12,9 +12,14 @@ Item,Quantity,Source,Part Number / Link,Manufacturer,MPN,Description,Package / F
 11,5,LCSC,C22365427,MSKSEMI,AP2112K-3.3TRG1(MS),Linear Voltage Regulator IC Fixed 3.3V 600mA,SOT-23-5,U1
 12,10,LCSC,C5445396,CJT,A2541WV-3P,Pin Header 3 Position 2.54mm Single Row,Through Hole 2.54mm,J3 (Moisture Expansion)
 13,5,LCSC,C160404,JST,SM04B-SRSS-TB(LF)(SN),Connector Header 4 position 1mm Pitch 1A R/A,SMD Right Angle 1mm,J2 (Qwiic / STEMMA QT)
-14,1,Pi Hut,https://thepihut.com,N/A,QT / Qwiic JST-SH 4-pin to Male Jumpers (150mm),Wire Harness,Cable,Connects J2 to SHT41 Breakout
-15,1,Pi Hut,https://thepihut.com,N/A,3.7V LiPo Battery (JST-PH),Battery Pack,Battery,Plugs into Waveshare Manager
-16,1,Pi Hut,https://thepihut.com,N/A,Power Manager Module (6V-24V),Pre-assembled Board,Module,Steps down Panel to safe 5V/3A Output
-17,1,Pi Hut,https://thepihut.com,Pi Hut,TTPH-SOLAR-9V,Solar Panel (9v 600mA),Chassis Panel,Powers Waveshare Manager Input
-18,1,Pi Hut,https://thepihut.com,Pi Hut,TTPH-SOIL-MOIST,Capacitive Soil Moisture Sensor,Probe Module,Plugs into J3 via included Female cable
-19,1,Pi Hut,https://thepihut.com,Sensirion,SHT41 Temp & Humidity Sensor,Breakout Board,Module,Plugs into J2 QT port via item 14
+14,20,LCSC,C42393300,XFCN,XF7126,UL1007 22AWG Red Stranded Hookup Wire (100mm),Pre-cut Lead,Positive Power Paths
+15,20,LCSC,C42393303,XFCN,XF7129,UL1007 22AWG Black Stranded Hookup Wire (100mm),Pre-cut Lead,Ground Return Loops
+16,1,Pi Hut,https://thepihut.com,Adafruit,ADA4209,QT / Qwiic JST-SH 4-pin to Male Jumpers (150mm),Wire Harness,Connects J2 to SHT41 Breakout
+17,1,Pi Hut,https://thepihut.com,PKCell,TTPH-LIPO-1200,3.7V LiPo Battery (JST-PH),Battery Pack,Plugs into Waveshare Manager
+18,1,Pi Hut,https://thepihut.com,Waveshare,WS-16120,Power Manager Module (6V-24V),Pre-assembled Board,Steps down Panel to safe 5V/3A Output
+19,1,Pi Hut,https://thepihut.com,Pi Hut,TTPH-SOLAR-9V,Solar Panel (9v 600mA),Chassis Panel,Powers Waveshare Manager Input
+20,1,Pi Hut,https://thepihut.com,Pi Hut,TTPH-SOIL-MOIST,Capacitive Soil Moisture Sensor,Probe Module,Plugs into J3 via included Female cable
+21,1,Pi Hut,https://thepihut.com,Sensirion,SHT41 Temp & Humidity Sensor,Breakout Board,Plugs into J2 QT port via item 16
+22,2,AliExpress,Moonlight electric,PG7-PG19-MIX,10Pcs Nylon Cable Glands IP68 (PG7/PG9 Assortment),Hardware Pack,Enclosure Waterproofing Joints
+23,1,AliExpress,FEITA Tools Store,FEITA-80W-KIT,80W LCD Digital Soldering Iron Kit (UK Plug),Tooling Set,Manual PCB Hand Assembly Shop
+24,1,AliExpress,Wenzhou Xiangheng,IP67-ABS-BLK,ABS Waterproof Box Housing Safe Case (Black),Junction Box,Outdoor Enclosure Housing Base
