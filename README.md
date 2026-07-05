@@ -2,6 +2,24 @@
 
 An ultra-low-power ESP32-C3 environmental telemetry node with solar harvesting and deep sleep optimization.
 
+## Project Info
+
+This project is a monnitor for my greenhouse. It can measure:
+- Soil Moisture
+- Humidity
+- Air Temperature
+
+This will allow me to take better care of my plants, and hopefully achieve a higher yield.
+
+I was inspired to create this project after seeing a video of a fully automated greenhouse, so I attempted to partially replicate it myself.
+
+## Photos
+
+<img width="1313" height="1186" alt="image" src="https://github.com/user-attachments/assets/0f1abe12-c997-404b-b592-fd25adfe9112" />
+<img width="1431" height="1182" alt="image" src="https://github.com/user-attachments/assets/3ad7e5f6-6414-41e5-abaf-6246a78c062a" />
+<img width="1167" height="827" alt="image" src="https://github.com/user-attachments/assets/ba33353e-b74f-4b04-a738-af192b0552b1" />
+
+
 ## Implementation, Topology, and Assembly Reference
 
 The custom PCB routes the ESP32-C3-WROOM-02U peripherals to external components using these net configurations:
