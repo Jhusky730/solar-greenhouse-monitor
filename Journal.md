@@ -16,9 +16,10 @@ It includes:
 
 I have improved upon my design as according to the reviewer.
 I have:
-- Moved the USB and JST_SH inputs closer to the edge of the board
+- Moved the USB and JST_SH inputs closer to the edge of the board (There is no Shcottky diode on the USB input as i will not be plugging in both the solar and USB at the same time)
 - Wired the USB D+ and D- pins differentially
 - Connected the USB VBUS to the regulator
 - Increased the size of the trace from the Screw Terminal to the Schottky diode.
+- Added net labels for some nets
 
 <img width="1311" height="1193" alt="image" src="https://github.com/user-attachments/assets/8c6494a4-dc74-4880-9d5f-68a61ebbc0dc" />
